@@ -15,7 +15,7 @@ namespace ClassLibrary1
 
     interface Interface2: Interface1
     {
-       int test4();
+       int test5();
        
     }
 

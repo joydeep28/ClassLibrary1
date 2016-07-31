@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public abstract class Class1 : Interface2
+    public abstract class Class1 : Interface2,Interface3
     {
         public int test()
         {
@@ -21,6 +21,10 @@ namespace ClassLibrary1
         public abstract int test3();
 
         public int test4()
+        {
+            return 4;
+        }
+        public int test5()
         {
             return 4;
         }
@@ -44,6 +48,7 @@ namespace ClassLibrary1
             Console.WriteLine(obj.test1());
             Console.WriteLine(obj.test3());
             Console.WriteLine(obj.test4());
+            Console.WriteLine(obj.test5());
         }
     }
 }
