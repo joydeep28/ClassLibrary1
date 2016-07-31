@@ -19,4 +19,10 @@ namespace ClassLibrary1
        
     }
 
+    interface Interface3 : Interface1
+    {
+        int test5();
+
+    }
+
 }
