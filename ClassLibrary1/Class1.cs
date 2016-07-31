@@ -41,14 +41,6 @@ namespace ClassLibrary1
 
     public class Class3
     {
-        public static void main(String[] args)
-        {
-            Class2 obj = new Class2();
-            Console.WriteLine(obj.test());
-            Console.WriteLine(obj.test1());
-            Console.WriteLine(obj.test3());
-            Console.WriteLine(obj.test4());
-            Console.WriteLine(obj.test5());
-        }
+       
     }
 }
